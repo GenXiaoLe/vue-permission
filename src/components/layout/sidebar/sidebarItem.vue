@@ -14,11 +14,6 @@
       :index="item.resCode"
       popper-append-to-body>
       <template slot="title">
-       <!-- <el-image :src="item.thumbnailFileKey">
-        <div slot="error" class="image-slot">
-          <i class="el-icon-picture-outline"></i>
-        </div>
-      </el-image> -->
        <mu-menu-item :icon="item.icon" :title="item.resName" />
       </template>
       <mu-sidebar-item

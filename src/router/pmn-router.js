@@ -6,6 +6,13 @@ export const routes = [
     },
     icon: "el-icon-news",
     name: "权限管理",
-    children: []
+    children: [
+      {
+        path: "/amc/resourceList",
+        name: "资源列表",
+        component: () =>
+          import(/* webpackChunkName: "amc" */ "@/views/pmn/reSourceList.vue")
+      },
+    ]
   }
 ]
